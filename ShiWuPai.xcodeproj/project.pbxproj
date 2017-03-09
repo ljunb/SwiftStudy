@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECFDA3B81E71160E0028D923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA3B71E71160E0028D923 /* AppDelegate.swift */; };
+		ECFDA3BA1E71160E0028D923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA3B91E71160E0028D923 /* ViewController.swift */; };
+		ECFDA3BD1E71160E0028D923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFDA3BB1E71160E0028D923 /* Main.storyboard */; };
+		ECFDA3BF1E71160E0028D923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFDA3BE1E71160E0028D923 /* Assets.xcassets */; };
+		ECFDA3C21E71160E0028D923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFDA3C01E71160E0028D923 /* LaunchScreen.storyboard */; };
+		ECFDA3CD1E71160E0028D923 /* ShiWuPaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA3CC1E71160E0028D923 /* ShiWuPaiTests.swift */; };
+		ECFDA3D81E71160E0028D923 /* ShiWuPaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA3D71E71160E0028D923 /* ShiWuPaiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECFDA3C91E71160E0028D923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECFDA3AC1E71160E0028D923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFDA3B31E71160E0028D923;
+			remoteInfo = ShiWuPai;
+		};
+		ECFDA3D41E71160E0028D923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECFDA3AC1E71160E0028D923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFDA3B31E71160E0028D923;
+			remoteInfo = ShiWuPai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECFDA3B41E71160E0028D923 /* ShiWuPai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiWuPai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFDA3B71E71160E0028D923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECFDA3B91E71160E0028D923 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECFDA3BC1E71160E0028D923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECFDA3BE1E71160E0028D923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECFDA3C11E71160E0028D923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECFDA3C31E71160E0028D923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFDA3C81E71160E0028D923 /* ShiWuPaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiWuPaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFDA3CC1E71160E0028D923 /* ShiWuPaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiWuPaiTests.swift; sourceTree = "<group>"; };
+		ECFDA3CE1E71160E0028D923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFDA3D31E71160E0028D923 /* ShiWuPaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiWuPaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFDA3D71E71160E0028D923 /* ShiWuPaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiWuPaiUITests.swift; sourceTree = "<group>"; };
+		ECFDA3D91E71160E0028D923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECFDA3B11E71160E0028D923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFDA3C51E71160E0028D923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFDA3D01E71160E0028D923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECFDA3AB1E71160E0028D923 = {
+			isa = PBXGroup;
+			children = (
+				ECFDA3B61E71160E0028D923 /* ShiWuPai */,
+				ECFDA3CB1E71160E0028D923 /* ShiWuPaiTests */,
+				ECFDA3D61E71160E0028D923 /* ShiWuPaiUITests */,
+				ECFDA3B51E71160E0028D923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECFDA3B51E71160E0028D923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECFDA3B41E71160E0028D923 /* ShiWuPai.app */,
+				ECFDA3C81E71160E0028D923 /* ShiWuPaiTests.xctest */,
+				ECFDA3D31E71160E0028D923 /* ShiWuPaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECFDA3B61E71160E0028D923 /* ShiWuPai */ = {
+			isa = PBXGroup;
+			children = (
+				ECFDA3B71E71160E0028D923 /* AppDelegate.swift */,
+				ECFDA3B91E71160E0028D923 /* ViewController.swift */,
+				ECFDA3BB1E71160E0028D923 /* Main.storyboard */,
+				ECFDA3BE1E71160E0028D923 /* Assets.xcassets */,
+				ECFDA3C01E71160E0028D923 /* LaunchScreen.storyboard */,
+				ECFDA3C31E71160E0028D923 /* Info.plist */,
+			);
+			path = ShiWuPai;
+			sourceTree = "<group>";
+		};
+		ECFDA3CB1E71160E0028D923 /* ShiWuPaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECFDA3CC1E71160E0028D923 /* ShiWuPaiTests.swift */,
+				ECFDA3CE1E71160E0028D923 /* Info.plist */,
+			);
+			path = ShiWuPaiTests;
+			sourceTree = "<group>";
+		};
+		ECFDA3D61E71160E0028D923 /* ShiWuPaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECFDA3D71E71160E0028D923 /* ShiWuPaiUITests.swift */,
+				ECFDA3D91E71160E0028D923 /* Info.plist */,
+			);
+			path = ShiWuPaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECFDA3B31E71160E0028D923 /* ShiWuPai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFDA3DC1E71160E0028D923 /* Build configuration list for PBXNativeTarget "ShiWuPai" */;
+			buildPhases = (
+				ECFDA3B01E71160E0028D923 /* Sources */,
+				ECFDA3B11E71160E0028D923 /* Frameworks */,
+				ECFDA3B21E71160E0028D923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiWuPai;
+			productName = ShiWuPai;
+			productReference = ECFDA3B41E71160E0028D923 /* ShiWuPai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECFDA3C71E71160E0028D923 /* ShiWuPaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFDA3DF1E71160E0028D923 /* Build configuration list for PBXNativeTarget "ShiWuPaiTests" */;
+			buildPhases = (
+				ECFDA3C41E71160E0028D923 /* Sources */,
+				ECFDA3C51E71160E0028D923 /* Frameworks */,
+				ECFDA3C61E71160E0028D923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECFDA3CA1E71160E0028D923 /* PBXTargetDependency */,
+			);
+			name = ShiWuPaiTests;
+			productName = ShiWuPaiTests;
+			productReference = ECFDA3C81E71160E0028D923 /* ShiWuPaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECFDA3D21E71160E0028D923 /* ShiWuPaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFDA3E21E71160E0028D923 /* Build configuration list for PBXNativeTarget "ShiWuPaiUITests" */;
+			buildPhases = (
+				ECFDA3CF1E71160E0028D923 /* Sources */,
+				ECFDA3D01E71160E0028D923 /* Frameworks */,
+				ECFDA3D11E71160E0028D923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECFDA3D51E71160E0028D923 /* PBXTargetDependency */,
+			);
+			name = ShiWuPaiUITests;
+			productName = ShiWuPaiUITests;
+			productReference = ECFDA3D31E71160E0028D923 /* ShiWuPaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECFDA3AC1E71160E0028D923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ljunb;
+				TargetAttributes = {
+					ECFDA3B31E71160E0028D923 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECFDA3C71E71160E0028D923 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECFDA3B31E71160E0028D923;
+					};
+					ECFDA3D21E71160E0028D923 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECFDA3B31E71160E0028D923;
+					};
+				};
+			};
+			buildConfigurationList = ECFDA3AF1E71160E0028D923 /* Build configuration list for PBXProject "ShiWuPai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECFDA3AB1E71160E0028D923;
+			productRefGroup = ECFDA3B51E71160E0028D923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECFDA3B31E71160E0028D923 /* ShiWuPai */,
+				ECFDA3C71E71160E0028D923 /* ShiWuPaiTests */,
+				ECFDA3D21E71160E0028D923 /* ShiWuPaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECFDA3B21E71160E0028D923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFDA3C21E71160E0028D923 /* LaunchScreen.storyboard in Resources */,
+				ECFDA3BF1E71160E0028D923 /* Assets.xcassets in Resources */,
+				ECFDA3BD1E71160E0028D923 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFDA3C61E71160E0028D923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFDA3D11E71160E0028D923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECFDA3B01E71160E0028D923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFDA3BA1E71160E0028D923 /* ViewController.swift in Sources */,
+				ECFDA3B81E71160E0028D923 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFDA3C41E71160E0028D923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFDA3CD1E71160E0028D923 /* ShiWuPaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFDA3CF1E71160E0028D923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFDA3D81E71160E0028D923 /* ShiWuPaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECFDA3CA1E71160E0028D923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECFDA3B31E71160E0028D923 /* ShiWuPai */;
+			targetProxy = ECFDA3C91E71160E0028D923 /* PBXContainerItemProxy */;
+		};
+		ECFDA3D51E71160E0028D923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECFDA3B31E71160E0028D923 /* ShiWuPai */;
+			targetProxy = ECFDA3D41E71160E0028D923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECFDA3BB1E71160E0028D923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECFDA3BC1E71160E0028D923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECFDA3C01E71160E0028D923 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECFDA3C11E71160E0028D923 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECFDA3DA1E71160E0028D923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECFDA3DB1E71160E0028D923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECFDA3DD1E71160E0028D923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShiWuPai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljunb.ShiWuPai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECFDA3DE1E71160E0028D923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShiWuPai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljunb.ShiWuPai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ECFDA3E01E71160E0028D923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShiWuPaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljunb.ShiWuPaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShiWuPai.app/ShiWuPai";
+			};
+			name = Debug;
+		};
+		ECFDA3E11E71160E0028D923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShiWuPaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljunb.ShiWuPaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShiWuPai.app/ShiWuPai";
+			};
+			name = Release;
+		};
+		ECFDA3E31E71160E0028D923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ShiWuPaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljunb.ShiWuPaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShiWuPai;
+			};
+			name = Debug;
+		};
+		ECFDA3E41E71160E0028D923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ShiWuPaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljunb.ShiWuPaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShiWuPai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECFDA3AF1E71160E0028D923 /* Build configuration list for PBXProject "ShiWuPai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFDA3DA1E71160E0028D923 /* Debug */,
+				ECFDA3DB1E71160E0028D923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFDA3DC1E71160E0028D923 /* Build configuration list for PBXNativeTarget "ShiWuPai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFDA3DD1E71160E0028D923 /* Debug */,
+				ECFDA3DE1E71160E0028D923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECFDA3DF1E71160E0028D923 /* Build configuration list for PBXNativeTarget "ShiWuPaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFDA3E01E71160E0028D923 /* Debug */,
+				ECFDA3E11E71160E0028D923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECFDA3E21E71160E0028D923 /* Build configuration list for PBXNativeTarget "ShiWuPaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFDA3E31E71160E0028D923 /* Debug */,
+				ECFDA3E41E71160E0028D923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECFDA3AC1E71160E0028D923 /* Project object */;
+}
